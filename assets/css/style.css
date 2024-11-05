@@ -1,6 +1,28 @@
-img[alt="bg-img"]
-{
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* img[alt="bg-img"] */
+.bg-img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 800px;
+    background-image: url(../img/bg-img-section6.png);
+}
+
+.max-width {
+    max-width: 971px;
+}
+
+.A-high {
+    font-family: "DM Sans";
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    max-width: 830px;
+}
+
+.display-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
