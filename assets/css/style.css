@@ -35,3 +35,7 @@
     line-height: 28px;
     max-width: 513px;
 }
+
+svg{
+    cursor: pointer;
+}
