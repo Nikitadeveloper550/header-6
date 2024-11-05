@@ -6,7 +6,8 @@
     background-size: cover;
     background-position: center;
     min-height: 800px;
-    background-image: url(../img/bg-img-section6.png);
+    background-image: url(../img/Image.png);
+    background-color:rgb(47,24,146);
 }
 
 .max-width {
@@ -25,4 +26,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.wemade {
+    font-family:"DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 513px;
 }
