@@ -97,19 +97,25 @@ button[aria-expanded="false"] span.cross {
     border-radius: 2rem;
 }
 
-#btn-singnup:hover {
+#btn-signup:hover {
     background-color: rgba(255, 255, 255, 1) !important;
     color: rgba(37, 218, 197, 1) !important;
 }
 
-.navbar.navbar-expand-lg {
-    /* max-width: 970px !important; */
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
+/* .navbar.navbar-expand-lg {
+     max-width: 970px !important; -
+     margin-left: auto !important;
+  
+} */
 
 @media (min-width:992px) {
     .pd-left-30{
         padding-left: 30px !important;
+    }
+
+    .header
+    {
+        position: absolute;
+        left: 50%;
     }
 }
