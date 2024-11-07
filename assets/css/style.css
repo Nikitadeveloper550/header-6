@@ -45,13 +45,6 @@ svg {
     cursor: pointer;
 }
 
-/* .navbar-expand-lg .navbar-nav .nav-link {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-    color: rgba(255, 255, 255, 1);
-} */
-
 li {
     display: inline-block;
 }
@@ -62,7 +55,7 @@ ul {
     padding: 0;
 }
 
-li.nav-item>a  {
+li.nav-item>a {
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -70,8 +63,8 @@ li.nav-item>a  {
 }
 
 .navbar {
-    --bs-navbar-padding-y: 3.2rem;
-    --bs-navbar-nav-link-padding-x: 1.5rem;
+    --bs-navbar-padding-y: 1rem !important;
+    --bs-navbar-padding-x: 1rem !important;
 }
 
 button[aria-expanded="false"] span.lines {
@@ -93,17 +86,30 @@ button[aria-expanded="false"] span.cross {
     background-size: 100%;
 }
 
-.max-width {
-    max-width: 971px;
-}
 
-#btn-signup 
-{
+#btn-signup {
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(37, 218, 197, 1);
-    padding: 10px  15px;
+    padding: 10px 15px;
     border-radius: 2rem;
+}
+
+#btn-singnup:hover {
+    background-color: rgba(255, 255, 255, 1) !important;
+    color: rgba(37, 218, 197, 1) !important;
+}
+
+.navbar.navbar-expand-lg {
+    /* max-width: 970px !important; */
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media (min-width:992px) {
+    .pd-left-30{
+        padding-left: 30px !important;
+    }
 }
